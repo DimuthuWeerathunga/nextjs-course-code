@@ -15,6 +15,7 @@ function AllPostsPage(props) {
         />
       </Head>
       <AllPosts posts={props.posts} />
+      <button onClick={() => console.log('this works')}>Click me</button>
     </Fragment>
   );
 }
